@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GBEncodeTool'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GBEncodeTool.'
+  s.summary          = 'GBEncodeTool 通用加密工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,32 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+GBEncodeTool 通用加密工具，支持MD5、AES、SHA、RSA等多种加密方式
                        DESC
 
-  s.homepage         = 'https://github.com/changjianfeishui/GBEncodeTool'
+  s.homepage         = 'https://github.com/mokey1422'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'changjianfeishui' => '329735967@qq.com' }
+  s.author           = { 'mokey1422' => '13241292557@163.com' }
   s.source           = { :git => 'https://github.com/changjianfeishui/GBEncodeTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'GBEncodeTool/Classes/**/*'
+  
+#  s.public_header_files  = 'GBEncodeTool/Classes/GBEncodeTool.h'
+  
+  non_arc_files = 'GBEncodeTool/Classes/GTMBase64/**/*'
+
+#  non_arc_files = 'GBEncodeTool/Classes/GTMBase64/GTMBase64.m','GBEncodeTool/Classes/GTMBase64/GTMBase64.h'
+  s.exclude_files = non_arc_files
+
+  s.subspec 'GTMBase64' do |sp|
+  sp.source_files = non_arc_files
+  sp.requires_arc = false
+  end
+  
   
   # s.resource_bundles = {
   #   'GBEncodeTool' => ['GBEncodeTool/Assets/*.png']

@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B04C30D25D1E2DC1B604FC32F38EBC1 /* RSACodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9270C9ADFC6F29BE47161438A3344B9C /* RSACodeTool.m */; };
+		23EC6ED315DA796C56D4A2142FEB3276 /* Pods-GBEncodeTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E3C0D91D0284145573F849F5CDE06 /* Pods-GBEncodeTool_Example-dummy.m */; };
+		2844D93B110EAFDD7910A2237222ACAB /* GBEncodeTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C97A260E2EDB47BD9FAE60C78EA9260 /* GBEncodeTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366CEC2B02A47A4B8FAD889DA87F79F7 /* Pods-GBEncodeTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B517AF80C9843682ED003BC639F04A /* Pods-GBEncodeTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		367DB6864379C084B6EEAA647E7D34CB /* GBEncodeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B71AB5209EF1A32D9C666FF1DF10B73E /* GBEncodeTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		465B0F8AD3191F0BC8E7621D86B560FE /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8457E4AAF50DD97C9A77D082C5BED98A /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		48284FD174FDD50FC1A1C89458FE90F2 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = C56C69A60B107A53B7BD55BBFA85DDD1 /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DECFF4A5FAF505876845D8B89BE4955 /* Pods-GBEncodeTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F445C3FA212A717F0489915771838FA5 /* Pods-GBEncodeTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79E863541E102C3D59C5879B29FAA52B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		80FDDDA62B7F3DC9353705590EE7B74E /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 804F51521BC7737D412AE8C1B4FE54EA /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B5B61D0168917A700A015E6CE4A7945 /* RSAA.h in Headers */ = {isa = PBXBuildFile; fileRef = 4468892973396E1C1B35AB3616D3750D /* RSAA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9446C29ED1FAA2004BCE4C3A7EC1522F /* GBEncodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDFCDE956B130735A441D9D6A4E052E /* GBEncodeTool.m */; };
+		97133634174796590C380410E15A8E79 /* NSData+GBAES.h in Headers */ = {isa = PBXBuildFile; fileRef = DB726208FA82E92999386B002AF445C6 /* NSData+GBAES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A3290E182EC779CADEC60E6F1699A6F /* RSACodeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E6555E3E4D7FC36235FB4021DF6080F2 /* RSACodeTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0902BD5E7A57BB91A9367F0ACDA6FC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		A6CBFE35AC2991A277E4CAB6F7580DBB /* Pods-GBEncodeTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C02B48BAB50ABC9D1E9F079C52D848B /* Pods-GBEncodeTool_Tests-dummy.m */; };
+		AA8DA01A85BCADECBE4B2F263D19259A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		B5C4F85252020B9A590A048F5B8ACFC4 /* GBEncodeTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB753D0BDF40DFAB41BDCEFEAC81B21 /* GBEncodeTool-dummy.m */; };
+		B992F46C57117254B0F2AE3B1CFB84B3 /* NSData+GBAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88770609FFF5201990BA0CEB3F3126 /* NSData+GBAES.m */; };
+		DD0E8C95951EF0067C383EA5CD39C990 /* RSAA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3016624C160FF05E48CD996940336DAF /* RSAA.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BF07ACB8E7F0E905989AE9D0F049698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C269E74F064880189AD5FFAE5E42EE;
+			remoteInfo = GBEncodeTool;
+		};
+		6A62EE15458C92A43D25B67F627DE945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F51DD7EAAA7B4A28F02F0F775979C37E;
+			remoteInfo = "Pods-GBEncodeTool_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043FED4D0674CFCD3208169B73BDA5FF /* Pods-GBEncodeTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBEncodeTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0F88770609FFF5201990BA0CEB3F3126 /* NSData+GBAES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+GBAES.m"; path = "GBEncodeTool/Classes/NSData+GBAES.m"; sourceTree = "<group>"; };
+		1373A6F69A8D88BB84173AE39ABD3517 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		263388703C5507067F7DFFEC79751ED5 /* Pods-GBEncodeTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBEncodeTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2855EFDEDABFC0908A93A4EC7F0937A2 /* Pods-GBEncodeTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBEncodeTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3016624C160FF05E48CD996940336DAF /* RSAA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSAA.m; path = GBEncodeTool/Classes/RSAA.m; sourceTree = "<group>"; };
+		345EC7C9A835B96CC36E15C0240D5FA3 /* Pods-GBEncodeTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBEncodeTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		35C83800C806ADD60C8D138D634A7601 /* Pods-GBEncodeTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GBEncodeTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		425FEFD47D0754A33C2BC8B280B308B6 /* Pods-GBEncodeTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GBEncodeTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		443E6B5BBD6225B7E3EE3D64AEDC707B /* Pods-GBEncodeTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GBEncodeTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4468892973396E1C1B35AB3616D3750D /* RSAA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSAA.h; path = GBEncodeTool/Classes/RSAA.h; sourceTree = "<group>"; };
+		4D4E3C0D91D0284145573F849F5CDE06 /* Pods-GBEncodeTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GBEncodeTool_Example-dummy.m"; sourceTree = "<group>"; };
+		4FD3B2E6CD6BC9D3BD6D4AA227FA91B8 /* GBEncodeTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBEncodeTool-prefix.pch"; sourceTree = "<group>"; };
+		606BC251B0D2DBCEB88ADA44EADB7C10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6921F68B965E17B190F5E9D6270504B4 /* Pods-GBEncodeTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBEncodeTool_Example-Info.plist"; sourceTree = "<group>"; };
+		6B99354AD06D392D15143C302A7CC2BD /* Pods-GBEncodeTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GBEncodeTool_Example.modulemap"; sourceTree = "<group>"; };
+		6C02B48BAB50ABC9D1E9F079C52D848B /* Pods-GBEncodeTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GBEncodeTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		804F51521BC7737D412AE8C1B4FE54EA /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = GBEncodeTool/Classes/GTMBase64/GTMDefines.h; sourceTree = "<group>"; };
+		8457E4AAF50DD97C9A77D082C5BED98A /* GTMBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMBase64.m; path = GBEncodeTool/Classes/GTMBase64/GTMBase64.m; sourceTree = "<group>"; };
+		8B591B4ABD0E732CDBCCF7A18F1DAA88 /* GBEncodeTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBEncodeTool.debug.xcconfig; sourceTree = "<group>"; };
+		9270C9ADFC6F29BE47161438A3344B9C /* RSACodeTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSACodeTool.m; path = GBEncodeTool/Classes/RSACodeTool.m; sourceTree = "<group>"; };
+		986ACC82EAA113C14D22ECF12B281E87 /* Pods-GBEncodeTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBEncodeTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9884966F264D757D89A3761FE8E24E7D /* GBEncodeTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GBEncodeTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C97A260E2EDB47BD9FAE60C78EA9260 /* GBEncodeTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBEncodeTool-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A149FC8AFCFB84F945F26A67F2E3D0DE /* GBEncodeTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBEncodeTool.release.xcconfig; sourceTree = "<group>"; };
+		A27ED7B8E7B0B70FA96FDF7247727357 /* Pods-GBEncodeTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBEncodeTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		AA99C1C0FD22018633E745B23EE3974F /* Pods-GBEncodeTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GBEncodeTool_Tests.modulemap"; sourceTree = "<group>"; };
+		AE544B4D2C13567E6A06E6ABCCDAA807 /* GBEncodeTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GBEncodeTool; path = GBEncodeTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71AB5209EF1A32D9C666FF1DF10B73E /* GBEncodeTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBEncodeTool.h; path = GBEncodeTool/Classes/GBEncodeTool.h; sourceTree = "<group>"; };
+		C2C1F3DEC3E7EC905079385C9926F97F /* Pods-GBEncodeTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GBEncodeTool_Example"; path = Pods_GBEncodeTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56C69A60B107A53B7BD55BBFA85DDD1 /* GTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMBase64.h; path = GBEncodeTool/Classes/GTMBase64/GTMBase64.h; sourceTree = "<group>"; };
+		C5C4E099634083402D750C50865606C9 /* Pods-GBEncodeTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBEncodeTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D408DA95051F72CDB8C2AA33BB978615 /* GBEncodeTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GBEncodeTool.modulemap; sourceTree = "<group>"; };
+		D411975809E561C22CE42275250AB91A /* Pods-GBEncodeTool_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GBEncodeTool_Tests"; path = Pods_GBEncodeTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B517AF80C9843682ED003BC639F04A /* Pods-GBEncodeTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GBEncodeTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DB726208FA82E92999386B002AF445C6 /* NSData+GBAES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+GBAES.h"; path = "GBEncodeTool/Classes/NSData+GBAES.h"; sourceTree = "<group>"; };
+		DBDFCDE956B130735A441D9D6A4E052E /* GBEncodeTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBEncodeTool.m; path = GBEncodeTool/Classes/GBEncodeTool.m; sourceTree = "<group>"; };
+		DDB753D0BDF40DFAB41BDCEFEAC81B21 /* GBEncodeTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBEncodeTool-dummy.m"; sourceTree = "<group>"; };
+		E6555E3E4D7FC36235FB4021DF6080F2 /* RSACodeTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSACodeTool.h; path = GBEncodeTool/Classes/RSACodeTool.h; sourceTree = "<group>"; };
+		EE3ACFEB11A06B272295A0DCBB7E5689 /* GBEncodeTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GBEncodeTool-Info.plist"; sourceTree = "<group>"; };
+		F445C3FA212A717F0489915771838FA5 /* Pods-GBEncodeTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GBEncodeTool_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C4172D474E776DFFEE557A489521BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8DA01A85BCADECBE4B2F263D19259A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EB96D1831988DB5567E2E104990A695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0902BD5E7A57BB91A9367F0ACDA6FC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5092B9037442243F19D28B2E710BAD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E863541E102C3D59C5879B29FAA52B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083045CB3C701D7224A1A51FFB506861 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				C56C69A60B107A53B7BD55BBFA85DDD1 /* GTMBase64.h */,
+				8457E4AAF50DD97C9A77D082C5BED98A /* GTMBase64.m */,
+				804F51521BC7737D412AE8C1B4FE54EA /* GTMDefines.h */,
+			);
+			name = GTMBase64;
+			sourceTree = "<group>";
+		};
+		0D0C60176925E77F39793F33F9F58CD9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A862E688BBBFE9BDB2E0BA3461BECAA /* Pods-GBEncodeTool_Example */,
+				931EEE08B8ED58F8EA38CC977842AEC0 /* Pods-GBEncodeTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1EAC5F976875E24300FE8266FCB0F607 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6F4EBAE71453B2805AA583D4611EED6 /* GBEncodeTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3CCD2F64D45AB43E7E2FC5D313F0B84C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D408DA95051F72CDB8C2AA33BB978615 /* GBEncodeTool.modulemap */,
+				DDB753D0BDF40DFAB41BDCEFEAC81B21 /* GBEncodeTool-dummy.m */,
+				EE3ACFEB11A06B272295A0DCBB7E5689 /* GBEncodeTool-Info.plist */,
+				4FD3B2E6CD6BC9D3BD6D4AA227FA91B8 /* GBEncodeTool-prefix.pch */,
+				9C97A260E2EDB47BD9FAE60C78EA9260 /* GBEncodeTool-umbrella.h */,
+				8B591B4ABD0E732CDBCCF7A18F1DAA88 /* GBEncodeTool.debug.xcconfig */,
+				A149FC8AFCFB84F945F26A67F2E3D0DE /* GBEncodeTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GBEncodeTool";
+			sourceTree = "<group>";
+		};
+		50AFB5F6F88EC2DF9659BE33FFA1299C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9884966F264D757D89A3761FE8E24E7D /* GBEncodeTool.podspec */,
+				606BC251B0D2DBCEB88ADA44EADB7C10 /* LICENSE */,
+				1373A6F69A8D88BB84173AE39ABD3517 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6A862E688BBBFE9BDB2E0BA3461BECAA /* Pods-GBEncodeTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6B99354AD06D392D15143C302A7CC2BD /* Pods-GBEncodeTool_Example.modulemap */,
+				443E6B5BBD6225B7E3EE3D64AEDC707B /* Pods-GBEncodeTool_Example-acknowledgements.markdown */,
+				263388703C5507067F7DFFEC79751ED5 /* Pods-GBEncodeTool_Example-acknowledgements.plist */,
+				4D4E3C0D91D0284145573F849F5CDE06 /* Pods-GBEncodeTool_Example-dummy.m */,
+				425FEFD47D0754A33C2BC8B280B308B6 /* Pods-GBEncodeTool_Example-frameworks.sh */,
+				6921F68B965E17B190F5E9D6270504B4 /* Pods-GBEncodeTool_Example-Info.plist */,
+				F445C3FA212A717F0489915771838FA5 /* Pods-GBEncodeTool_Example-umbrella.h */,
+				C5C4E099634083402D750C50865606C9 /* Pods-GBEncodeTool_Example.debug.xcconfig */,
+				043FED4D0674CFCD3208169B73BDA5FF /* Pods-GBEncodeTool_Example.release.xcconfig */,
+			);
+			name = "Pods-GBEncodeTool_Example";
+			path = "Target Support Files/Pods-GBEncodeTool_Example";
+			sourceTree = "<group>";
+		};
+		931EEE08B8ED58F8EA38CC977842AEC0 /* Pods-GBEncodeTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA99C1C0FD22018633E745B23EE3974F /* Pods-GBEncodeTool_Tests.modulemap */,
+				35C83800C806ADD60C8D138D634A7601 /* Pods-GBEncodeTool_Tests-acknowledgements.markdown */,
+				2855EFDEDABFC0908A93A4EC7F0937A2 /* Pods-GBEncodeTool_Tests-acknowledgements.plist */,
+				6C02B48BAB50ABC9D1E9F079C52D848B /* Pods-GBEncodeTool_Tests-dummy.m */,
+				A27ED7B8E7B0B70FA96FDF7247727357 /* Pods-GBEncodeTool_Tests-Info.plist */,
+				D9B517AF80C9843682ED003BC639F04A /* Pods-GBEncodeTool_Tests-umbrella.h */,
+				345EC7C9A835B96CC36E15C0240D5FA3 /* Pods-GBEncodeTool_Tests.debug.xcconfig */,
+				986ACC82EAA113C14D22ECF12B281E87 /* Pods-GBEncodeTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-GBEncodeTool_Tests";
+			path = "Target Support Files/Pods-GBEncodeTool_Tests";
+			sourceTree = "<group>";
+		};
+		C6F4EBAE71453B2805AA583D4611EED6 /* GBEncodeTool */ = {
+			isa = PBXGroup;
+			children = (
+				B71AB5209EF1A32D9C666FF1DF10B73E /* GBEncodeTool.h */,
+				DBDFCDE956B130735A441D9D6A4E052E /* GBEncodeTool.m */,
+				DB726208FA82E92999386B002AF445C6 /* NSData+GBAES.h */,
+				0F88770609FFF5201990BA0CEB3F3126 /* NSData+GBAES.m */,
+				4468892973396E1C1B35AB3616D3750D /* RSAA.h */,
+				3016624C160FF05E48CD996940336DAF /* RSAA.m */,
+				E6555E3E4D7FC36235FB4021DF6080F2 /* RSACodeTool.h */,
+				9270C9ADFC6F29BE47161438A3344B9C /* RSACodeTool.m */,
+				083045CB3C701D7224A1A51FFB506861 /* GTMBase64 */,
+				50AFB5F6F88EC2DF9659BE33FFA1299C /* Pod */,
+				3CCD2F64D45AB43E7E2FC5D313F0B84C /* Support Files */,
+			);
+			name = GBEncodeTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1EAC5F976875E24300FE8266FCB0F607 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DEDBC3E1CFA650C7979C3908297E1D79 /* Products */,
+				0D0C60176925E77F39793F33F9F58CD9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEDBC3E1CFA650C7979C3908297E1D79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE544B4D2C13567E6A06E6ABCCDAA807 /* GBEncodeTool */,
+				C2C1F3DEC3E7EC905079385C9926F97F /* Pods-GBEncodeTool_Example */,
+				D411975809E561C22CE42275250AB91A /* Pods-GBEncodeTool_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27C19BF96AD9583E36FB9F2127848F83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367DB6864379C084B6EEAA647E7D34CB /* GBEncodeTool.h in Headers */,
+				2844D93B110EAFDD7910A2237222ACAB /* GBEncodeTool-umbrella.h in Headers */,
+				48284FD174FDD50FC1A1C89458FE90F2 /* GTMBase64.h in Headers */,
+				80FDDDA62B7F3DC9353705590EE7B74E /* GTMDefines.h in Headers */,
+				97133634174796590C380410E15A8E79 /* NSData+GBAES.h in Headers */,
+				8B5B61D0168917A700A015E6CE4A7945 /* RSAA.h in Headers */,
+				9A3290E182EC779CADEC60E6F1699A6F /* RSACodeTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBFC98D02344798DE85853CC8A070C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366CEC2B02A47A4B8FAD889DA87F79F7 /* Pods-GBEncodeTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFFDF8332A2C03C60F62704238EA206 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DECFF4A5FAF505876845D8B89BE4955 /* Pods-GBEncodeTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13C269E74F064880189AD5FFAE5E42EE /* GBEncodeTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431112B3BFA85165E9A93166A1C6DFB5 /* Build configuration list for PBXNativeTarget "GBEncodeTool" */;
+			buildPhases = (
+				27C19BF96AD9583E36FB9F2127848F83 /* Headers */,
+				79771C562FB8E44C684C5A05828BFFF7 /* Sources */,
+				1EB96D1831988DB5567E2E104990A695 /* Frameworks */,
+				06A3C4DC9088D8D7A8C5501CD385A4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBEncodeTool;
+			productName = GBEncodeTool;
+			productReference = AE544B4D2C13567E6A06E6ABCCDAA807 /* GBEncodeTool */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D212B5F1D14D61304481B455AE8A8B5 /* Pods-GBEncodeTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4351DFF3CD37C19A59807BD8CF758A /* Build configuration list for PBXNativeTarget "Pods-GBEncodeTool_Tests" */;
+			buildPhases = (
+				4CBFC98D02344798DE85853CC8A070C9 /* Headers */,
+				EF0BEB2B68D3BB5F55EAE3C8D02ED46F /* Sources */,
+				1C4172D474E776DFFEE557A489521BC0 /* Frameworks */,
+				2DF80A88D87EE7AA450BFBDE183F5DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A498F5D3E7C56938FE4FD9520F79707D /* PBXTargetDependency */,
+			);
+			name = "Pods-GBEncodeTool_Tests";
+			productName = Pods_GBEncodeTool_Tests;
+			productReference = D411975809E561C22CE42275250AB91A /* Pods-GBEncodeTool_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F51DD7EAAA7B4A28F02F0F775979C37E /* Pods-GBEncodeTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706A472F02519EB5CF4733D6789F7D90 /* Build configuration list for PBXNativeTarget "Pods-GBEncodeTool_Example" */;
+			buildPhases = (
+				6AFFDF8332A2C03C60F62704238EA206 /* Headers */,
+				C74091E155E9F70B8169BA79D04BCC21 /* Sources */,
+				C5092B9037442243F19D28B2E710BAD9 /* Frameworks */,
+				7E577A1F832C61A0441F88C987374987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1ACBF825BD0723019135C8AB2D1B35A /* PBXTargetDependency */,
+			);
+			name = "Pods-GBEncodeTool_Example";
+			productName = Pods_GBEncodeTool_Example;
+			productReference = C2C1F3DEC3E7EC905079385C9926F97F /* Pods-GBEncodeTool_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DEDBC3E1CFA650C7979C3908297E1D79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13C269E74F064880189AD5FFAE5E42EE /* GBEncodeTool */,
+				F51DD7EAAA7B4A28F02F0F775979C37E /* Pods-GBEncodeTool_Example */,
+				4D212B5F1D14D61304481B455AE8A8B5 /* Pods-GBEncodeTool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06A3C4DC9088D8D7A8C5501CD385A4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF80A88D87EE7AA450BFBDE183F5DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E577A1F832C61A0441F88C987374987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79771C562FB8E44C684C5A05828BFFF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9446C29ED1FAA2004BCE4C3A7EC1522F /* GBEncodeTool.m in Sources */,
+				B5C4F85252020B9A590A048F5B8ACFC4 /* GBEncodeTool-dummy.m in Sources */,
+				465B0F8AD3191F0BC8E7621D86B560FE /* GTMBase64.m in Sources */,
+				B992F46C57117254B0F2AE3B1CFB84B3 /* NSData+GBAES.m in Sources */,
+				DD0E8C95951EF0067C383EA5CD39C990 /* RSAA.m in Sources */,
+				1B04C30D25D1E2DC1B604FC32F38EBC1 /* RSACodeTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74091E155E9F70B8169BA79D04BCC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EC6ED315DA796C56D4A2142FEB3276 /* Pods-GBEncodeTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0BEB2B68D3BB5F55EAE3C8D02ED46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CBFE35AC2991A277E4CAB6F7580DBB /* Pods-GBEncodeTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1ACBF825BD0723019135C8AB2D1B35A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBEncodeTool;
+			target = 13C269E74F064880189AD5FFAE5E42EE /* GBEncodeTool */;
+			targetProxy = 2BF07ACB8E7F0E905989AE9D0F049698 /* PBXContainerItemProxy */;
+		};
+		A498F5D3E7C56938FE4FD9520F79707D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GBEncodeTool_Example";
+			target = F51DD7EAAA7B4A28F02F0F775979C37E /* Pods-GBEncodeTool_Example */;
+			targetProxy = 6A62EE15458C92A43D25B67F627DE945 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BA531543C076CD087275111D0C7A3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986ACC82EAA113C14D22ECF12B281E87 /* Pods-GBEncodeTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GBEncodeTool_Tests/Pods-GBEncodeTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GBEncodeTool_Tests/Pods-GBEncodeTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AB4C4E39660FB843321EB6C5410F946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C4E099634083402D750C50865606C9 /* Pods-GBEncodeTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GBEncodeTool_Example/Pods-GBEncodeTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GBEncodeTool_Example/Pods-GBEncodeTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B38C5FFAEC39AEDB56CF14758D6E729B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A149FC8AFCFB84F945F26A67F2E3D0DE /* GBEncodeTool.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GBEncodeTool/GBEncodeTool-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GBEncodeTool/GBEncodeTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GBEncodeTool/GBEncodeTool.modulemap";
+				PRODUCT_MODULE_NAME = GBEncodeTool;
+				PRODUCT_NAME = GBEncodeTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7B8337F76A08FD087084F69A4B8F4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B591B4ABD0E732CDBCCF7A18F1DAA88 /* GBEncodeTool.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GBEncodeTool/GBEncodeTool-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GBEncodeTool/GBEncodeTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GBEncodeTool/GBEncodeTool.modulemap";
+				PRODUCT_MODULE_NAME = GBEncodeTool;
+				PRODUCT_NAME = GBEncodeTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8C2A3C8B795AB36FDE9FD931D8B93DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345EC7C9A835B96CC36E15C0240D5FA3 /* Pods-GBEncodeTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GBEncodeTool_Tests/Pods-GBEncodeTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GBEncodeTool_Tests/Pods-GBEncodeTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA6D63D257675F7D2BEB68D0EA57A7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043FED4D0674CFCD3208169B73BDA5FF /* Pods-GBEncodeTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-GBEncodeTool_Example/Pods-GBEncodeTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GBEncodeTool_Example/Pods-GBEncodeTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		431112B3BFA85165E9A93166A1C6DFB5 /* Build configuration list for PBXNativeTarget "GBEncodeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B8337F76A08FD087084F69A4B8F4BF /* Debug */,
+				B38C5FFAEC39AEDB56CF14758D6E729B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B4351DFF3CD37C19A59807BD8CF758A /* Build configuration list for PBXNativeTarget "Pods-GBEncodeTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8C2A3C8B795AB36FDE9FD931D8B93DA /* Debug */,
+				0BA531543C076CD087275111D0C7A3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706A472F02519EB5CF4733D6789F7D90 /* Build configuration list for PBXNativeTarget "Pods-GBEncodeTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB4C4E39660FB843321EB6C5410F946 /* Debug */,
+				FA6D63D257675F7D2BEB68D0EA57A7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

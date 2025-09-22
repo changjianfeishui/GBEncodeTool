@@ -1,0 +1,30 @@
+{
+  "name": "GBEncodeTool",
+  "version": "0.1.0",
+  "summary": "GBEncodeTool 通用加密工具",
+  "description": "GBEncodeTool 通用加密工具，支持MD5、AES、SHA、RSA等多种加密方式",
+  "homepage": "https://github.com/mokey1422",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mokey1422": "13241292557@163.com"
+  },
+  "source": {
+    "git": "https://github.com/changjianfeishui/GBEncodeTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GBEncodeTool/Classes/**/*",
+  "exclude_files": "GBEncodeTool/Classes/GTMBase64/**/*",
+  "subspecs": [
+    {
+      "name": "GTMBase64",
+      "source_files": "GBEncodeTool/Classes/GTMBase64/**/*",
+      "requires_arc": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+PODS:
+  - GBEncodeTool (0.1.0):
+    - GBEncodeTool/GTMBase64 (= 0.1.0)
+  - GBEncodeTool/GTMBase64 (0.1.0)
+
+DEPENDENCIES:
+  - GBEncodeTool (from `../`)
+
+EXTERNAL SOURCES:
+  GBEncodeTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GBEncodeTool: 6edb4f16794e687e232692c82a1807611d926ad7
+
+PODFILE CHECKSUM: 41931d371e778f4917f2b3cb4962e48d413fdb2d
+
+COCOAPODS: 1.16.2
